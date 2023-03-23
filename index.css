@@ -1,0 +1,87 @@
+.header-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.logo {
+    height: 25px;
+}
+
+.dog-img {
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    max-width: 400px;
+    height: 450px;
+    margin: 10px auto;
+}
+
+.dog-desc {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.name {
+    font-size: 1.2rem;
+    color: #F8F8F8;
+    margin-bottom: 0;
+}
+
+.bio {
+    margin-top: 5px;
+    color: #B7B7B7;
+}
+
+.swipe-btn {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.badge {
+    width: 90px;
+    margin: 30px 10px;
+    transform: rotate(-30deg);
+}
+
+.reject-btn,
+.like-btn {
+    width: 23px;
+    height: 23px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 7px;
+    cursor: pointer;
+}
+
+.reject-btn:hover {
+    background: #FFE7EF;
+}
+
+.like-btn:hover {
+    background: #DBFFF4;
+}
+
+.no-match {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.no-match h3 {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #f20089;
+    padding: 60% 0; 
+}
+
+.hidden {
+    display: none;
+}
